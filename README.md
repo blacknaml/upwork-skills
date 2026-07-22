@@ -1,8 +1,10 @@
-# freelance-skills
+# upwork-skills
 
 <p align="center"><strong>English</strong> · <a href="README.id.md">Bahasa Indonesia</a></p>
 
-**AI agent skills for freelancers, extracted from a real Top Rated Plus playbook.**
+**AI agent skills for Upwork freelancers, extracted from a real Top Rated Plus playbook.**
+
+*Community project. Not affiliated with or endorsed by Upwork.*
 
 Five skills that turn Claude, Cursor, or any SKILL.md-compatible agent into a working freelance operator: one that qualifies jobs before you spend Connects, drafts proposals that beat the AI flood, answers invitations fast, audits your profile, and handles the hard client conversations.
 
@@ -25,7 +27,7 @@ Together they cover the whole loop: choose well, get chosen, be findable, and ru
 With the [skills CLI](https://skills.sh):
 
 ```bash
-npx skills add abullaisi/freelance-skills --all
+npx skills add abullaisi/upwork-skills --all
 ```
 
 Or manually: copy any skill folder into your agent's skills directory (`.claude/skills/` for Claude Code) and it loads on the next session.
@@ -51,7 +53,7 @@ Contributions are welcome, and small ones count:
 
 - **Corrections**: guidance that's gone stale, a mechanic that changed.
 - **Translations**: any skill, any language. Bahasa Indonesia versions are a first-class goal.
-- **New skills**: freelance craft beyond Upwork (pricing, portfolio, other platforms) fits here. Open an issue first so we agree on scope.
+- **New skills**: more Upwork craft (pricing, portfolio prep, niche workflows) fits here. Other platforms deserve their own pack. Open an issue first so we agree on scope.
 
 Keep the house rules: plain human voice, no invented statistics, sources cited, no client names or real rates in examples, and no scraping or automation that violates any platform's terms.
 

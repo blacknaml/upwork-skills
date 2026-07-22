@@ -1,8 +1,10 @@
-# freelance-skills
+# upwork-skills
 
 <p align="center"><a href="README.md">English</a> · <strong>Bahasa Indonesia</strong></p>
 
-**Skill AI agent untuk freelancer, diambil dari playbook asli seorang Top Rated Plus.**
+**Skill AI agent untuk freelancer Upwork, diambil dari playbook asli seorang Top Rated Plus.**
+
+*Proyek komunitas. Tidak berafiliasi dengan dan tidak didukung oleh Upwork.*
 
 Lima skill yang mengubah Claude, Cursor, atau agent apa pun yang kompatibel dengan SKILL.md menjadi operator freelance yang benar-benar kerja: menyaring job sebelum kamu buang Connects, menulis proposal yang menonjol di tengah banjir AI, membalas undangan interview dengan cepat, mengaudit profilmu, dan menangani percakapan klien yang sulit.
 
@@ -25,7 +27,7 @@ Kelimanya menutup satu siklus penuh: memilih dengan benar, terpilih, mudah ditem
 Dengan [skills CLI](https://skills.sh):
 
 ```bash
-npx skills add abullaisi/freelance-skills --all
+npx skills add abullaisi/upwork-skills --all
 ```
 
 Atau manual: salin folder skill mana pun ke direktori skills agent-mu (`.claude/skills/` untuk Claude Code), lalu skill-nya aktif di sesi berikutnya.
@@ -51,7 +53,7 @@ Kontribusi terbuka, dan yang kecil pun berarti:
 
 - **Koreksi**: panduan yang sudah basi, mekanik platform yang berubah.
 - **Terjemahan**: skill mana pun, bahasa apa pun. Versi Bahasa Indonesia adalah tujuan utama, bukan tambahan.
-- **Skill baru**: keterampilan freelance di luar Upwork (pricing, portofolio, platform lain) cocok di sini. Buka issue dulu supaya scope-nya disepakati.
+- **Skill baru**: keterampilan Upwork lainnya (pricing, persiapan portofolio, workflow niche) cocok di sini. Platform lain layak dapat pack sendiri. Buka issue dulu supaya scope-nya disepakati.
 
 Aturan rumahnya: suara manusia yang wajar, tanpa statistik karangan, sumber dikutip, tanpa nama klien atau rate asli di contoh, dan tanpa scraping atau otomasi yang melanggar ketentuan platform mana pun.
 
