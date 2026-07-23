@@ -13,7 +13,7 @@ Invitations are not job applications. The client already handpicked this freelan
 2. **The user's decision**: accept, decline, or unsure. If unsure, run the triage below first.
 3. For accepts: one portfolio link matched to the job. For decline-with-referral: the referral's name and whether the user has already told them.
 
-Profile shortcut: if a stored profile file exists (`upwork-profile.md` in the working directory or `~/.claude/`), read identity, niche, and links from it and ask only for what's missing.
+Profile shortcut: if a stored profile file exists (`upwork-profile.md` in the working directory or `~/.claude/`), read identity, niche, and links from it and ask only for what's missing or not stated concretely (a rate line that says "ask me" means ask).
 
 ## Rule zero: always respond, same day
 
@@ -29,6 +29,8 @@ Three questions, thirty seconds:
 
 Two or three yeses: accept. Otherwise pick the decline move that fits.
 
+Question 1 is a hard gate. If getting to yes needs a rate raise, it's a decline no matter how the other two land.
+
 ## Accept
 
 Three or four sentences maximum. No sales copy: the client already chose this profile.
@@ -43,9 +45,11 @@ All three share the same skeleton: **thank first, decline in the first sentence,
 
 **Move 1: decline and refer (the goodwill machine).** For good jobs you can't take. Thank them, say you're committed to other projects, refer a specific freelancer you can vouch for, and vouch in one line ("we've worked together; they have my full backing"). This converts a lost job into goodwill with the client AND a favor to a peer. Two rules: only refer someone whose work you'd stake your name on, and message the referred freelancer first so the handoff lands warm, not cold.
 
-**Move 2: decline, not a fit.** For mismatched jobs. Thank them, say plainly the job isn't a fit for your skills, and leave the door open: "I hope we can work together on something closer to my lane." No fake busyness; clients respect an honest not-my-thing and remember it when the right job comes.
+**Move 2: decline, not a fit.** For mismatched jobs. Thank them, say plainly the job isn't a fit for your skills, and leave the door open: "I hope we can work together on something closer to my lane." No fake busyness; clients respect an honest not-my-thing and remember it when the right job comes. Not a fit covers budget as well as skills. When the skills match but the budget can't reach your rate, say the job isn't a fit at this budget; never claim a skills mismatch that isn't true.
 
 **Move 3: decline, at capacity.** For fine jobs at the wrong time. Thank them, say you're fully booked, keep the door open for future work. If they're worth staying visible to, invite them to reach out for the next project.
+
+Upwork's decline flow also asks for a dropdown reason; tell the user which one matches the move (for example "Budget too low" or "Not a good fit").
 
 ## Voice rules (hard)
 

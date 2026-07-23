@@ -11,9 +11,9 @@ Mid-contract messages decide whether a contract ends in a review and a referral 
 
 1. **The situation** (which of the five below).
 2. **Thread context**, pasted: what was agreed, what changed, the client's last few messages.
-3. **Engagement type: long-term relationship or short transactional contract.** Several moves below fork on this; ask if unclear.
+3. **Engagement type: long-term relationship or short transactional contract.** Several moves below fork on this; ask if unclear. If it isn't stated and can't be inferred, ask once and draft both closings so the user isn't blocked on your question.
 
-Profile shortcut: if a stored profile file exists (`upwork-profile.md` in the working directory or `~/.claude/`), read identity and rate context from it and ask only for what's missing.
+Profile shortcut: if a stored profile file exists (`upwork-profile.md` in the working directory or `~/.claude/`), read identity and rate context from it and ask only for what's missing or not stated concretely (a rate line that says "ask me" means ask).
 
 ## Voice (hard, applies to all five)
 
@@ -35,6 +35,8 @@ First, classify with the repeated-game rule:
 Then draft by engagement type:
 - **Long engagement: quantify, never litigate.** Separate the quick fixes from the heavy scope, give estimates with caveats for what's outside your control, name the cumulative overage factually (count the change requests, name two examples that fell outside the brief), and close with a relationship check-in ("are you happy with how this has been going?") instead of a demand. Stated facts plus an open question reliably invites the client to propose the paid phase themselves, which lands better than any invoice argument.
 - **Short transactional contract: name the number.** "We haven't talked about pricing for the extended scope; for these pages I'd add [amount]." Direct works fine when there's no long relationship to choreograph. If they counter reasonably, accept and move on.
+
+When a large ask lands on a short transactional contract, timing follows the large-ask rule: give the number on the spot only if you can estimate it confidently, otherwise commit to a date for it. Naming the number never means guessing it.
 
 ## 3. Rate increase
 

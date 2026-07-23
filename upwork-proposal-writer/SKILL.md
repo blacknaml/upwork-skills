@@ -14,10 +14,12 @@ Ask for anything missing. Never invent these.
 1. **The job post**, pasted in full.
 2. **The user's identity line facts:** role, years of experience, niche specialization.
 3. **3-5 portfolio links or samples** that match THIS job's niche. Matched proof beats impressive-but-unrelated proof. If the user gives you ten links, pick the closest 3-5 and say why.
-4. **One relevant outcome** they can claim (a shipped result, a metric, a client situation similar to this job).
+4. **One relevant outcome** they can claim (a shipped result, a metric, a client situation similar to this job). The outcome belongs in the credibility move. If the user can't supply one, draft without it and say so. Never invent one.
 5. Optional: rate intentions, availability, anything the client asked applicants to answer.
 
-Profile shortcut: if a stored profile file exists (`upwork-profile.md` in the working directory or `~/.claude/`), read identity, niche, links, and rate from it and ask only for what's missing. Never ask for what the file already answers.
+Profile shortcut: if a stored profile file exists (`upwork-profile.md` in the working directory or `~/.claude/`), read identity, niche, links, and rate from it and ask only for what's missing or not stated concretely (a rate line that says "ask me" means ask). Never ask for what the file already answers.
+
+Before drafting, check the job's core ask against the profile. If a major requirement sits outside what the profile actually covers, flag the stretch in one line before the draft. The draft itself only claims what's real.
 
 ## Mode 1: Draft (primary)
 
@@ -25,7 +27,7 @@ Profile shortcut: if a stored profile file exists (`upwork-profile.md` in the wo
 
 **Move 1: credibility line.** One sentence: identity + years + niche. Example shape: "I'm a UI/UX designer with 5+ years specializing in SaaS dashboards." This is the first thing the client sees in the results-list preview, alongside the freelancer's photo, badges, rate, and Job Success Score. It has to establish fit in one line.
 
-**Move 2: curated proof.** Immediately place the 3-5 matched portfolio links or attachments. Before any pitch. Upwork's own data: freelancers with published portfolios are hired nine times more often. The curation is the skill: e-commerce links for an e-commerce job, motion links when the brief mentions motion.
+**Move 2: curated proof.** Immediately place the 3-5 matched portfolio links or attachments. Before any pitch. Upwork's own data: freelancers with published portfolios are hired nine times more often. The curation is the skill: e-commerce links for an e-commerce job, motion links when the brief mentions motion. If the stored profile only has generic homepage links, still ask for samples matched to this job's niche. Matched proof beats stored convenience.
 
 **Move 3: mirror the brief.** Restate the client's requirements back as a short bullet list ("Based on your brief, you need someone who can combine: ..."). This proves close reading, which is the one thing a template blast can never fake. For short invite replies, compress this to a single sentence naming their specific situation.
 

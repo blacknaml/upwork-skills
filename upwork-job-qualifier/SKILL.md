@@ -13,7 +13,7 @@ Every proposal costs Connects, and the platform's own AI will never tell a freel
 2. **The "About the client" panel**, pasted: payment verified or not, total spent, number of hires, average hourly rate paid, hire rate, member-since date, and the category the job is filed under. This panel decides more verdicts than the job text does. If the user didn't paste it, ask for it before ruling.
 3. The user's rate and niche, so the math below has a reference point.
 
-Profile shortcut: if a stored profile file exists (`upwork-profile.md` in the working directory or `~/.claude/`), read rate and niche from it and ask only for what's missing.
+Profile shortcut: if a stored profile file exists (`upwork-profile.md` in the working directory or `~/.claude/`), read rate and niche from it and ask only for what's missing or not stated concretely (a rate line that says "ask me" means ask).
 
 ## Instant skips (any one of these ends the evaluation)
 
@@ -42,6 +42,7 @@ Worked example (anonymized, from the method author's real ledger): a "$20 Shopif
 - A chaotic, unstructured brief where requirements arrive as a stream of consciousness.
 - Rushed hiring with no questions asked. Clients who hire in an hour churn just as fast.
 - Job posted more than ~48 hours ago with many proposals already: a weaker use of Connects regardless of quality, since early proposals capture the client's attention.
+- Fixed-price with a large scope and no visible budget number: flag it, that combination is where scope creep lives.
 
 ## Positive signals
 
@@ -57,6 +58,8 @@ Worked example (anonymized, from the method author's real ledger): a "$20 Shopif
 - Decision rule: the worse the client-history math, the lower the acceptable Connects spend. A job that fails the cross-check is worth zero Connects, however good the title feels.
 
 ## Verdict format
+
+No client panel, no verdict. If the About the Client panel wasn't pasted, reply with a HOLD: list what the post alone shows, flag any risks, and request the panel (payment verified, total spent, hires, average rate paid, member since). Never rule APPLY or SKIP on job text alone.
 
 One short paragraph: **APPLY / SKIP / APPLY WITH CAUTION**, the top two or three reasons in plain language, and the next step. On APPLY, hand off to upwork-proposal-writer. On SKIP for an invitation, hand off to upwork-invitation-responder, because silence is a visible stat and a graceful decline is free. On CAUTION, name exactly what to verify before spending (usually one clarifying question to the client).
 

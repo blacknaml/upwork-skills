@@ -16,7 +16,9 @@ The proposal's only job is to earn a profile visit. The profile does the actual 
 5. **Stats and badges**: JSS if visible, badge tier, total earnings bracket, response stats.
 6. The user's niche and the kind of client they want next. The audit is against that target, not against a generic ideal.
 
-Profile shortcut: if a stored profile file exists (`upwork-profile.md` in the working directory or `~/.claude/`), read it first and audit against it; ask only for sections the file lacks.
+Profile shortcut: if a stored profile file exists (`upwork-profile.md` in the working directory or `~/.claude/`), read it first and audit against it; ask only for sections the file lacks or states vaguely (a rate line that says "ask me" means ask). If a stored profile file and a fresh paste both exist, the paste is ground truth for scoring and the file is background context. Flag any mismatch between the two as a finding.
+
+When tags or stats are missing from both sources, audit what's present now and end by requesting exactly those two. Don't block the audit waiting for them.
 
 ## Audit, in funnel order
 
@@ -46,7 +48,7 @@ Three independent sources in Upwork's own guidance converge on the same claim: c
 - Rate is a signal, not just a price. A rate far below the niche's range reads as a quality warning to exactly the clients worth having.
 - Activity feeds visibility: regular logins, proposals, and fast invitation responses (see upwork-invitation-responder; unanswered invites are a visible stat).
 
-## 6. The machine readers (AEO, the layer nobody else audits)
+### 6. The machine readers (AEO, the layer nobody else audits)
 
 A profile now has three readers, not one: the classic keyword search, Upwork's AI ranking (Uma: relevance, buyer intent, client history, price fit), and, since Upwork's official ChatGPT app, **an LLM synthesizing talent recommendations inside a chat window** where the client never sees the search results page at all. The exact retrieval mechanics are not public; the writing principles that win LLM retrieval are stable anyway:
 
