@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/social-preview.png" alt="upwork-skills: 5 free agent skills for Upwork freelancers" width="100%"></p>
+
 # upwork-skills
 
 <p align="center"><strong>English</strong> · <a href="README.id.md">Bahasa Indonesia</a></p>

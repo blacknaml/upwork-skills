@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/social-preview.png" alt="upwork-skills: 5 skill AI gratis buat freelancer Upwork" width="100%"></p>
+
 # upwork-skills
 
 <p align="center"><a href="README.md">English</a> · <strong>Bahasa Indonesia</strong></p>
