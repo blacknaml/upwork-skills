@@ -59,6 +59,12 @@ Contributions are welcome, and small ones count:
 
 Keep the house rules: plain human voice, no invented statistics, sources cited, no client names or real rates in examples, and no scraping or automation that violates any platform's terms.
 
+## Freshness
+
+**Guidance verified as of July 2026.** Upwork changes its mechanics regularly: Connects pricing, badge rules, search behavior, the AI features on both sides of the marketplace. Every skill cites its sources so you can check them yourself, and each one flags where official guidance and field results disagree.
+
+If something here no longer matches what you're seeing on the platform, that's the most valuable issue you can open. Corrections from working freelancers are what keep this accurate, and they are welcome in English or Bahasa Indonesia.
+
 ## License and disclaimers
 
 MIT. Use it, fork it, ship it.

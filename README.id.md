@@ -59,6 +59,12 @@ Kontribusi terbuka, dan yang kecil pun berarti:
 
 Aturan rumahnya: suara manusia yang wajar, tanpa statistik karangan, sumber dikutip, tanpa nama klien atau rate asli di contoh, dan tanpa scraping atau otomasi yang melanggar ketentuan platform mana pun.
 
+## Kesegaran isi
+
+**Panduan diverifikasi per Juli 2026.** Upwork rutin mengubah mekaniknya: harga Connects, aturan badge, cara kerja pencarian, sampai fitur AI di kedua sisi marketplace. Setiap skill mengutip sumbernya supaya bisa kamu cek sendiri, dan menandai di mana panduan resmi berbeda dari hasil di lapangan.
+
+Kalau ada yang sudah tidak cocok dengan yang kamu lihat di platform sekarang, itu justru issue paling berharga yang bisa kamu buka. Koreksi dari yang praktik langsung adalah yang menjaga isi ini tetap akurat, dan boleh dalam Bahasa Indonesia maupun Inggris.
+
 ## Lisensi dan disclaimer
 
 MIT. Pakai, fork, kembangkan.
