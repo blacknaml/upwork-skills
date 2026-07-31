@@ -20,6 +20,23 @@ Profile shortcut: if a stored profile file exists (`upwork-profile.md` in the wo
 
 When tags or stats are missing from both sources, audit what's present now and end by requesting exactly those two. Don't block the audit waiting for them.
 
+## Stage first (do this before scoring anything)
+
+Half of this method is about levers a new freelancer does not have yet. Scoring a profile against them produces a list of failures instead of a fix list, which is useless and discouraging. So establish the stage before auditing, from the stats or by asking one question:
+
+- **No history**: no completed contracts, no reviews, no badge.
+- **Early**: some completed work, few reviews, Rising Talent or no badge.
+- **Established**: Top Rated or above, JSS visible.
+
+**If the stage is no-history or early, skip section 5 as a scoring dimension.** Do not mark JSS, badge tier, or earnings "missing" or "weak"; they are not weak, they do not exist yet, and saying so is the difference between an audit and a scolding. Audit sections 1 through 4 and 6 in full, since those are entirely within a beginner's control and are the whole game at this stage, then close with the no-history note below instead of the mechanics scoring.
+
+**The no-history close.** State plainly which levers are locked and what unlocks each one, so the user knows what they are working toward rather than what they lack:
+
+- A JSS appears only after enough completed contracts carry feedback. Until then the profile is judged on its content alone, which means sections 1 through 4 carry more weight for a beginner than for anyone else, not less.
+- Rising Talent is the first badge and the first real filter a beginner can pass; it is worth naming as the near-term target instead of Top Rated, which is years away.
+- The advice that dominates section 5, protect the score by declining bad-fit work, **partly inverts here.** Someone with zero reviews needs their first few completed contracts to exist at all, so the calculus is different: still refuse the scams and the impossible briefs, but a small, clearly-scoped, slightly-underpaid first contract that ends in a genuine 5-star review can be worth more than holding out. Say this as a tradeoff, not as permission to work cheap forever.
+- Honesty requirement: this method was extracted from an established Top Rated Plus profile. Where beginner-stage guidance is reasoned inference rather than lived experience, say so in the audit, the same way the skill already flags disagreements between official guidance and field results.
+
 ## Audit, in funnel order
 
 ### 1. Title (the search surface, 70-character cap)

@@ -57,6 +57,17 @@ Worked example (anonymized, from the method author's real ledger): a "$20 Shopif
 - Boosting is an auction: winning bids commonly run 10-20 Connects for a top-4 slot, roughly 17% more likely to be seen, with first place historically converting around twice as often. **Boost only strong-fit jobs from verified high-quality clients.** Boosting a weak fit is paying extra to lose faster.
 - Decision rule: the worse the client-history math, the lower the acceptable Connects spend. A job that fails the cross-check is worth zero Connects, however good the title feels.
 
+## When the user has no track record yet
+
+The math above assumes a freelancer with a position to protect. Someone with no reviews and no badge is running a different calculation, and pretending otherwise gives them advice built for a situation they are not in. What changes:
+
+- **Winnability enters the verdict, not just worth.** A job can pass every client-history check and still be a poor use of Connects for a beginner, because clients who filter on Job Success Score or badge tier will never see the proposal. Weigh that in, and prefer jobs where the client has few or no prior hires: they are less likely to be filtering on credentials that a beginner does not have yet.
+- **Scope small on purpose.** A first contract that finishes cleanly and earns a genuine review is worth more than a larger one that stalls. Favor tight, well-defined jobs over ambitious ones, for now.
+- **Scam screening matters more here, not less.** New freelancers are targeted precisely because they are eager and have nothing to lose by taking a risk. Every instant skip above stays absolute at this stage. This is the one part of the method that does not soften for beginners.
+- **The rate-gap rule loosens slightly, and only deliberately.** A client paying below the user's target rate is normally a skip. At zero reviews it can be a considered tradeoff for the first two or three contracts, if the scope is small and the client history is clean. Name it as a tradeoff with an endpoint, never as a habit.
+
+Honesty note: this method was extracted from an established freelancer's ledger. The beginner adjustments above are reasoned from the same evidence rather than lived at that stage, and the verdict should say so when it leans on them.
+
 ## Verdict format
 
 No client panel, no verdict. If the About the Client panel wasn't pasted, reply with a HOLD: list what the post alone shows, flag any risks, and request the panel (payment verified, total spent, hires, average rate paid, member since). Never rule APPLY or SKIP on job text alone.
